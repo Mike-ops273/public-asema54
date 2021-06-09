@@ -5,7 +5,7 @@
 }
 
 main {
-  max-width: 1000px;
+  /*max-width: 1000px;*/
   margin: auto;
 }
 
@@ -30,11 +30,15 @@ header {
   border-radius: 100px;
   padding: 0.3rem;
 }
-.facebook-logo {
-  width: 50px;
+.facebook-logo img {
+  width: 40px;
   border-radius: 100px;
+  padding-top: 2px;
 }
-.instagram-logo {
+.instagram-logo img {
+  width: 40px;
+  border-radius: 100px;
+  padding-top: 2px;
 }
 
 /*NAVIGATION MENU*/
@@ -133,6 +137,14 @@ span {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
 }
+
+.sub-title-desktops {
+  display: none;
+}
+.title-desktops {
+  display: none;
+}
+
 /*HEADER END*/
 
 /* MAIN */
@@ -142,7 +154,7 @@ main {
 /*SLIDES*/
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  /*max-width: 1000px;*/
   position: relative;
   margin: auto;
 }
@@ -286,22 +298,53 @@ footer {
   }
   .nav-bar {
     display: content;
+    display: none;
   }
   .openbtn {
     display: none;
   }
   .as54-logo img {
-    width: 70px;
+    width: 90px;
+    border: 0.1px solid rgb(88, 82, 82);
+    padding: 0.1px;
+    margin-top: -40px;
   }
+  .facebook-logo img {
+    width: 60px;
+  }
+  .instagram-logo img {
+    width: 60px;
+  }
+
+  .title {
+    display: none;
+  }
+  .sub-title {
+    display: none;
+  }
+  .sub-title-desktops {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  .title-desktops {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-bottom: 8px;
+    border-bottom: 1px solid;
+  }
+
   .bottom-nav {
     display: flex;
     justify-content: space-around;
+    overflow: hidden;
   }
   .bottom-nav a {
     text-decoration: none;
     font-size: 20px;
     color: white;
-    margin-top: 15px;
+    padding-top: 40px;
   }
   .bottom-nav a:hover {
     cursor: pointer;
