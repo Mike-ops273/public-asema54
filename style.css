@@ -13,6 +13,11 @@ img {
   width: 100%;
 }
 
+.facebook-logo-footer img,
+.instagram-logo-footer img {
+  display: none;
+}
+
 /*HEADER*/
 header {
 }
@@ -263,6 +268,9 @@ footer {
   background: rgb(49, 45, 45);
   color: white;
 }
+.footer-text {
+  display: none;
+}
 /* FOOTER END */
 
 /* MEDIA QUERIES */
@@ -355,6 +363,43 @@ footer {
   }
   .text {
     font-size: 30px;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 10px;
+  }
+  .facebook-logo-footer img,
+  .instagram-logo-footer img {
+    display: inline;
+    width: 40px;
+    padding: 0px;
+    border-radius: 100px;
+  }
+  .footer-contact-info {
+    text-align: left;
+    margin-left: 20px;
+  }
+  .footer-text {
+    display: block;
+    margin-bottom: 10px;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .footer-logos {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .footer-logo-spacer {
+    margin: 20px;
+  }
+  .footer-juhlasali-info {
+    text-align: right;
+    margin-right: 20px;
+  }
+  .color {
+    color: red;
   }
 }
 
