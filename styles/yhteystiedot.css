@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(49, 45, 45);
+}
+
+.yhteystiedot-introduction-h2 {
+  font-size: 22px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.mobile-contact-text {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 15px;
+}
+.color {
+  color: red;
+}
